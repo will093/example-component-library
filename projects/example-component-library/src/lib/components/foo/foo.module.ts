@@ -6,6 +6,7 @@ import { NgModule } from '@angular/core';
   declarations: [FooComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [FooComponent]
 })
 export class FooModule { }
